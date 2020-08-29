@@ -8,7 +8,7 @@ After cleaning the raw data, we will perform exploratory analysis and answer som
 * Finding out the mean Energy Supply per Capita.
 * finding out the correlation between the number of citable documents per capita and the energy supply per capita; using Pearson's R.
 
-##### Libraries used in this program:
+Libraries used in this program:
 
 - Pandas
 - NumPy
