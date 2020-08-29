@@ -1,3 +1,3 @@
 # R
 
-This directory includes the programs written in R language.
+This directory includes programs written in R language.
