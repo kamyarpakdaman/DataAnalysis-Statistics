@@ -1,6 +1,6 @@
-#### Energy, GDP, and Science
+#### Energy, GDP, and science
 
-In this program we look at the countries in energy, GDP, and science rankings to investigate if there are potential relations.
+In this program, we look at the countries in energy, GDP, and science rankings to investigate if there are potential relations.
 After cleaning the raw data, we will perform exploratory analysis and answer some questions such as:
 
 * Finding out the average GDP over the last 10 years for each country.
