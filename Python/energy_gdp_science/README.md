@@ -10,5 +10,5 @@ After cleaning the raw data, we will perform exploratory analysis and answer som
 
 Libraries used in this program:
 
-- Pandas
-- NumPy
+- pandas
+- numpy
