@@ -1,6 +1,6 @@
 # In this program, we're going to read the documentation and familiarize ourselves with it; then write some python code
 # which returns a line graph of the record high and record low temperatures by day of the year over the period 2005-2014.
-# Further, The area between the record high and record low temperatures for each day will be shaded. The, we're going to
+# Further, The area between the record high and record low temperatures for each day will be shaded. Then, we're going to
 # overlay a scatter of the 2015 data for any points (highs and lows) for which the ten year record (2005-2014) record high
 # or record low was broken in 2015.
 # Note. The data in the dataset comes from somewhere near Ann Arbor, Michigan, United States.
