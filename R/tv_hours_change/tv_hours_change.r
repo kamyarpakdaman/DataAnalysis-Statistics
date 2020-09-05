@@ -9,7 +9,7 @@ load("gss.Rdata")
 
 # How has the mean hours spent on watching TV changed from 2000 to 2012 for the US households?
 
-# To perform the exploratory data analysisT at first, let's create a data set including the year and tvhour columns, 
+# To perform the exploratory data analysis at first, let's create a data set including the year and tvhour columns, 
 # where the year is either 2000 or 2012.
 
 tvhour0012 <- gss %>%
