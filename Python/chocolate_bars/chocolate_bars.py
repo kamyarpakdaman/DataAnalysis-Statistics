@@ -98,13 +98,13 @@ plt.ylabel('Ratings')
 
 z = np.polyfit(percentages_list, ratings_list, 1)
 line_function = np.poly1d(z)
-plt.plot(percentages_list, line_function(ratings_list), color = 'springgreen')
+plt.plot(percentages_list, line_function(percentages_list), color = 'springgreen')
 
 plt.savefig('result_2.png', format = 'png')
 
 plt.show()
 
-# Seems there isn't a meaningful correlation between the cocoa percentages and the ratings.
+# It seems the ratings decrease as the percentage of cocoa increases.
 
 print('\nThanks for reviewing')
 
