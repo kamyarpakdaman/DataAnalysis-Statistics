@@ -258,7 +258,7 @@ chronological_ranks_n_rollers(5, 'wood')
 
 # Loading roller coaster data. this dataset contains some numeric data about roller coasters such as their heigh and weight.
 
-# captain_coasters = pd.read_csv('roller_coasters.csv')
+captain_coasters = pd.read_csv('roller_coasters.csv')
 
 # print(captain_coasters.head())
 
@@ -361,6 +361,8 @@ def scatter_numerics(df, field_1, field_2):
     plt.figure()
     plt.plot(data_1, line_function(data_1), color = 'springgreen')
     plt.scatter(data_1, data_2, color = 'darkslateblue')
+    plt.xlabel(field_1)
+    plt.ylabel(field_2)
     ax = plt.gca()
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
